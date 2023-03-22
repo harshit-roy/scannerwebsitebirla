@@ -15,6 +15,6 @@ function onScanSuccess(qrCodeMessage) {
     fps: 10,
     qrbox: 250
   });
-  // in
+  
   html5QrCodeScanner.render(onScanSuccess, onScanError);
   
